@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4773C61214297F9A00241DEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4773C61114297F9A00241DEC /* UIKit.framework */; };
+		4773C61414297F9A00241DEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4773C61314297F9A00241DEC /* Foundation.framework */; };
+		4773C61614297F9A00241DEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4773C61514297F9A00241DEC /* CoreGraphics.framework */; };
+		4773C61C14297F9A00241DEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4773C61A14297F9A00241DEC /* InfoPlist.strings */; };
+		4773C61E14297F9A00241DEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C61D14297F9A00241DEC /* main.m */; };
+		4773C62214297F9A00241DEC /* SoapTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C62114297F9A00241DEC /* SoapTestAppDelegate.m */; };
+		4773C62514297F9A00241DEC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4773C62314297F9A00241DEC /* MainWindow.xib */; };
+		4773C62814297F9A00241DEC /* SoapTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C62714297F9A00241DEC /* SoapTestViewController.m */; };
+		4773C62B14297F9A00241DEC /* SoapTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4773C62914297F9A00241DEC /* SoapTestViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4773C60D14297F9A00241DEC /* SoapTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoapTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4773C61114297F9A00241DEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4773C61314297F9A00241DEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4773C61514297F9A00241DEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4773C61914297F9A00241DEC /* SoapTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoapTest-Info.plist"; sourceTree = "<group>"; };
+		4773C61B14297F9A00241DEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4773C61D14297F9A00241DEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4773C61F14297F9A00241DEC /* SoapTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoapTest-Prefix.pch"; sourceTree = "<group>"; };
+		4773C62014297F9A00241DEC /* SoapTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoapTestAppDelegate.h; sourceTree = "<group>"; };
+		4773C62114297F9A00241DEC /* SoapTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoapTestAppDelegate.m; sourceTree = "<group>"; };
+		4773C62414297F9A00241DEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4773C62614297F9A00241DEC /* SoapTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoapTestViewController.h; sourceTree = "<group>"; };
+		4773C62714297F9A00241DEC /* SoapTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoapTestViewController.m; sourceTree = "<group>"; };
+		4773C62A14297F9A00241DEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SoapTestViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4773C60A14297F9A00241DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4773C61214297F9A00241DEC /* UIKit.framework in Frameworks */,
+				4773C61414297F9A00241DEC /* Foundation.framework in Frameworks */,
+				4773C61614297F9A00241DEC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4773C60214297F9A00241DEC = {
+			isa = PBXGroup;
+			children = (
+				4773C61714297F9A00241DEC /* SoapTest */,
+				4773C61014297F9A00241DEC /* Frameworks */,
+				4773C60E14297F9A00241DEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4773C60E14297F9A00241DEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4773C60D14297F9A00241DEC /* SoapTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4773C61014297F9A00241DEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4773C61114297F9A00241DEC /* UIKit.framework */,
+				4773C61314297F9A00241DEC /* Foundation.framework */,
+				4773C61514297F9A00241DEC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4773C61714297F9A00241DEC /* SoapTest */ = {
+			isa = PBXGroup;
+			children = (
+				4773C62014297F9A00241DEC /* SoapTestAppDelegate.h */,
+				4773C62114297F9A00241DEC /* SoapTestAppDelegate.m */,
+				4773C62314297F9A00241DEC /* MainWindow.xib */,
+				4773C62614297F9A00241DEC /* SoapTestViewController.h */,
+				4773C62714297F9A00241DEC /* SoapTestViewController.m */,
+				4773C62914297F9A00241DEC /* SoapTestViewController.xib */,
+				4773C61814297F9A00241DEC /* Supporting Files */,
+			);
+			path = SoapTest;
+			sourceTree = "<group>";
+		};
+		4773C61814297F9A00241DEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4773C61914297F9A00241DEC /* SoapTest-Info.plist */,
+				4773C61A14297F9A00241DEC /* InfoPlist.strings */,
+				4773C61D14297F9A00241DEC /* main.m */,
+				4773C61F14297F9A00241DEC /* SoapTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4773C60C14297F9A00241DEC /* SoapTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4773C62E14297F9A00241DEC /* Build configuration list for PBXNativeTarget "SoapTest" */;
+			buildPhases = (
+				4773C60914297F9A00241DEC /* Sources */,
+				4773C60A14297F9A00241DEC /* Frameworks */,
+				4773C60B14297F9A00241DEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoapTest;
+			productName = SoapTest;
+			productReference = 4773C60D14297F9A00241DEC /* SoapTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4773C60414297F9A00241DEC /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4773C60714297F9A00241DEC /* Build configuration list for PBXProject "SoapTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4773C60214297F9A00241DEC;
+			productRefGroup = 4773C60E14297F9A00241DEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4773C60C14297F9A00241DEC /* SoapTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4773C60B14297F9A00241DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4773C61C14297F9A00241DEC /* InfoPlist.strings in Resources */,
+				4773C62514297F9A00241DEC /* MainWindow.xib in Resources */,
+				4773C62B14297F9A00241DEC /* SoapTestViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4773C60914297F9A00241DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4773C61E14297F9A00241DEC /* main.m in Sources */,
+				4773C62214297F9A00241DEC /* SoapTestAppDelegate.m in Sources */,
+				4773C62814297F9A00241DEC /* SoapTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4773C61A14297F9A00241DEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4773C61B14297F9A00241DEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4773C62314297F9A00241DEC /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4773C62414297F9A00241DEC /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4773C62914297F9A00241DEC /* SoapTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4773C62A14297F9A00241DEC /* en */,
+			);
+			name = SoapTestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4773C62C14297F9A00241DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4773C62D14297F9A00241DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4773C62F14297F9A00241DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoapTest/SoapTest-Prefix.pch";
+				INFOPLIST_FILE = "SoapTest/SoapTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4773C63014297F9A00241DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoapTest/SoapTest-Prefix.pch";
+				INFOPLIST_FILE = "SoapTest/SoapTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4773C60714297F9A00241DEC /* Build configuration list for PBXProject "SoapTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4773C62C14297F9A00241DEC /* Debug */,
+				4773C62D14297F9A00241DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4773C62E14297F9A00241DEC /* Build configuration list for PBXNativeTarget "SoapTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4773C62F14297F9A00241DEC /* Debug */,
+				4773C63014297F9A00241DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4773C60414297F9A00241DEC /* Project object */;
+}
