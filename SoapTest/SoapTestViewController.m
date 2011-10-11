@@ -3,7 +3,7 @@
 //  SoapTest
 //
 //  Created by Mugdha Kulkarni on 9/20/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Birdgeware Systems Inc. All rights reserved.
 //
 
 #import "SoapTestViewController.h"
